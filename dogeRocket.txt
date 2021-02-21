@@ -73,29 +73,29 @@ Buildings
 		
 	*lemonStand|lemonStands
 		name:Doge-ade Stand|Doge-ade Stands
-		desc:A tiny little Doge-ade stand. Don't forget the ice!<//><b>Effect:</b><.>Produces 1 dogecoin every 10 seconds.
+		desc:A tiny little Doge-ade stand. You convert lemons into small amounts of money. You spend all the profits buying Dogecoin. Don't forget the ice!<//><b>Effect:</b><.>Produces 1 dogecoin every 10 seconds.
 		icon:icons[3,0]
 		cost:15 dogecoins
 		on tick:yield 0.1 dogecoin
 		unlocked
 	
 	*dogehouse|dogehousees
-		name:dogehouse|dogehouses
+		name:Doge-house|Doge-houses
 		desc:You get tiny houses for your precious dogecoins. Helps them gain interest, with enough space to grow.<//><b>Effect:</b><.>Produces 1 dogecoin every 2 seconds.
 		icon:icons[3,1]
 		cost:100 dogecoins
 		on tick:yield 0.5 dogecoins
 		req:100 dogecoins:earned
 	
-	*coop|coops
-		name:dogecoin coop|dogecoin coops
-		desc:A much nicer dogecoin home where full dogecoin families can live.<//><b>Effect:</b><.>Produces 5 dogecoins per second.
+	*usbMiner|usbMiners
+		name:USB Miner|USB Miners
+		desc:A small Dogecoin miner. This will <//><b>Effect:</b><.>Produces 5 dogecoins per second.
 		icon:icons[3,2]
 		cost:600 dogecoins
 		on tick:yield 5 dogecoins
 		req:600 dogecoins:earned
 	
-	
+
 	*pen|pens
 		name:dogecoin pen|dogecoin pens
 		desc:A lovely enclosure with plenty of green space.<//><b>Effect:</b><.>Produces 12 dogecoins per second.
@@ -245,33 +245,33 @@ Upgrades
 	
 	*buildingUpgrade1
 		name:Sippy bottles
-		desc:Your dogecoins can drink their fill!<//><b>Effect:</b><.>dogecoin lemonStand production x2<.>dogecoin dogehouse production x2<.>dogecoin coop production x2
+		desc:Your dogecoins can drink their fill!<//><b>Effect:</b><.>dogecoin lemonStand production x2<.>dogecoin dogehouse production x2<.>dogecoin usbMiner production x2
 		icon:icons[2,0] icons[3,0]
 		cost:1000 dogecoins
 		passive:multiply yield of lemonStand by 2
 		passive:multiply yield of dogehouse by 2
-		passive:multiply yield of coop by 2
-		req:(lemonStands>=10 or dogehousees>=10 or coops>=10)
+		passive:multiply yield of usbMiner by 2
+		req:(lemonStands>=10 or dogehousees>=10 or usbMiners>=10)
 		
 	*buildingUpgrade2
 		name:Prime grade hay
-		desc:Not just for horses anymore!<//><b>Effect:</b><.>dogecoin lemonStand production x2<.>dogecoin dogehouse production x2<.>dogecoin coop production x2
+		desc:Not just for horses anymore!<//><b>Effect:</b><.>dogecoin lemonStand production x2<.>dogecoin dogehouse production x2<.>dogecoin usbMiner production x2
 		icon:icons[2,0] icons[3,1]
 		cost:100000 dogecoins
 		passive:multiply yield of lemonStand by 2
 		passive:multiply yield of dogehouse by 2
-		passive:multiply yield of coop by 2
-		req:(lemonStands>=50 or dogehousees>=50 or coops>=50)
+		passive:multiply yield of usbMiner by 2
+		req:(lemonStands>=50 or dogehousees>=50 or usbMiners>=50)
 		
 	*buildingUpgrade3
 		name:Shredded newspapers
-		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>dogecoin lemonStand production x2<.>dogecoin dogehouse production x2<.>dogecoin coop production x2
+		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>dogecoin lemonStand production x2<.>dogecoin dogehouse production x2<.>dogecoin usbMiner production x2
 		icon:icons[2,0] icons[3,2]
 		cost:5000000 dogecoins
 		passive:multiply yield of lemonStand by 2
 		passive:multiply yield of dogehouse by 2
-		passive:multiply yield of coop by 2
-		req:(lemonStands>=100 or dogehousees>=100 or coops>=100)
+		passive:multiply yield of usbMiner by 2
+		req:(lemonStands>=100 or dogehousees>=100 or usbMiners>=100)
 		
 	*buildingUpgrade4
 		name:Pretty fences
