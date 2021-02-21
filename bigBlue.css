@@ -18,6 +18,12 @@
 	border-bottom-right-radius:20px;
 	margin-bottom:4px;
 }
+
+thing-icon-0.style {
+    background-image: url(https://i.pinimg.com/originals/3d/c0/e0/3dc0e09….gif);
+    background-position: 0px 0px;
+    background-size: contain;
+}
 .box-footer
 {
 	border-top-left-radius:20px;
