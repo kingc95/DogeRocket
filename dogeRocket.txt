@@ -335,8 +335,8 @@ Upgrades
 		req:1 goldenCarrot:earned
 	
 	*independenceDay
-		name:IndeschoolComputerdence day
-		desc:Your dogecoins are making their first step towards declaring their indeschoolComputerdence from the oppressive shackles of schoolComputers and lemonStands.<//><b>Effect:</b><.>unlocks new buildings
+		name:Independence Day
+		desc:Your dogecoins are making their first step towards declaring their Independence  from the oppressive shackles of schoolComputers and lemonStands.<//><b>Effect:</b><.>unlocks new buildings
 		icon:icons[2,7]
 		cost:10 goldenCarrots
 		req:5 goldenCarrots:earned
