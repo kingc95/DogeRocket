@@ -95,6 +95,7 @@ Buildings
 		on tick:yield 5 dogecoins
 		req:600 dogecoins:earned
 	
+	
 	*pen|pens
 		name:dogecoin pen|dogecoin pens
 		desc:A lovely enclosure with plenty of green space.<//><b>Effect:</b><.>Produces 12 dogecoins per second.
