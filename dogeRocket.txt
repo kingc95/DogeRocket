@@ -15,8 +15,8 @@ Settings
 Layout
 	use default
 		
-Buttons
-	*bunnyButton
+ButtonsdogeButton
+	*
 		name:Mine Doge
 		desc:Click this coin to mine doge!
 		on click:anim icon wobble
@@ -71,57 +71,57 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 		
-	*cage|cages
-		name:Rabbit cage|Rabbit cages
-		desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
+	*lemonStand|lemonStands
+		name:Doge-ade Stand|Doge-ade Stands
+		desc:A tiny little Doge-ade stand. Don't forget the ice!<//><b>Effect:</b><.>Produces 1 dogecoin every 10 seconds.
 		icon:icons[3,0]
 		cost:15 dogecoins
 		on tick:yield 0.1 dogecoin
 		unlocked
 	
-	*hutch|hutches
-		name:Rabbit hutch|Rabbit hutches
-		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
+	*dogehouse|dogehousees
+		name:dogehouse|dogehouses
+		desc:You get tiny houses for your precious dogecoins. Helps them gain interest, with enough space to grow.<//><b>Effect:</b><.>Produces 1 dogecoin every 2 seconds.
 		icon:icons[3,1]
 		cost:100 dogecoins
 		on tick:yield 0.5 dogecoins
 		req:100 dogecoins:earned
 	
 	*coop|coops
-		name:Rabbit coop|Rabbit coops
-		desc:A much nicer rabbit home where full dogecoin families can live.<//><b>Effect:</b><.>Produces 5 rabbits per second.
+		name:dogecoin coop|dogecoin coops
+		desc:A much nicer dogecoin home where full dogecoin families can live.<//><b>Effect:</b><.>Produces 5 dogecoins per second.
 		icon:icons[3,2]
 		cost:600 dogecoins
 		on tick:yield 5 dogecoins
 		req:600 dogecoins:earned
 	
 	*pen|pens
-		name:Rabbit pen|Rabbit pens
-		desc:A lovely enclosure with plenty of green space.<//><b>Effect:</b><.>Produces 12 rabbits per second.
+		name:dogecoin pen|dogecoin pens
+		desc:A lovely enclosure with plenty of green space.<//><b>Effect:</b><.>Produces 12 dogecoins per second.
 		icon:icons[3,3]
 		cost:4000 dogecoins
 		on tick:yield 12 dogecoins
 		req:4000 dogecoins:earned
 	
 	*meadow|meadows
-		name:Rabbit meadow|Rabbit meadows
-		desc:A wide open space full of shade and lush grass.<//><b>Effect:</b><.>Produces 90 rabbits per second.
+		name:dogecoin meadow|dogecoin meadows
+		desc:A wide open space full of shade and lush grass.<//><b>Effect:</b><.>Produces 90 dogecoins per second.
 		icon:icons[3,4]
 		cost:20000 dogecoins
 		on tick:yield 90 dogecoins
 		req:20000 dogecoins:earned
 	
 	*village|villages
-		name:Rabbit village|Rabbit villages
-		desc:Your dogecoins are building their own villages now!<//><b>Effect:</b><.>Produces 300 rabbits per second.
+		name:dogecoin village|dogecoin villages
+		desc:Your dogecoins are building their own villages now!<//><b>Effect:</b><.>Produces 300 dogecoins per second.
 		icon:icons[3,5]
 		cost:200000 dogecoins, 1 goldenCarrot
 		on tick:yield 300 dogecoins
 		req:200000 dogecoins:earned and independenceDay
 		
 	*city|cities
-		name:Rabbit city|Rabbit cities
-		desc:A bustling little city, populated with busy rabbits.<//><b>Effect:</b><.>Produces 1000 rabbits per second.
+		name:dogecoin city|dogecoin cities
+		desc:A bustling little city, populated with busy dogecoins.<//><b>Effect:</b><.>Produces 1000 dogecoins per second.
 		icon:icons[3,6]
 		cost:3000000 dogecoins, 4 goldenCarrots
 		on tick:yield 1000 dogecoins
@@ -129,7 +129,7 @@ Buildings
 		
 	*citadel|citadels
 		name:Moon citadel|Moon citadels
-		desc:An ornate palace standing on the moon, ruled by dogecoin kings and queens and staffed with royal dogecoin guards.<//><b>Effect:</b><.>Produces 4000 rabbits per second.
+		desc:An ornate palace standing on the moon, ruled by dogecoin kings and queens and staffed with royal dogecoin guards.<//><b>Effect:</b><.>Produces 4000 dogecoins per second.
 		icon:icons[3,7]
 		cost:70000000 dogecoins, 16 goldenCarrots
 		on tick:yield 4000 dogecoins
@@ -151,14 +151,14 @@ Upgrades
 		on click:anim glow
 	
 	//food upgrades
-	//inspiration : http://rabbit.org/suggested-vegetables-and-fruits-for-a-rabbit-diet/
+	//inspiration : http://dogecoin.org/suggested-vegetables-and-fruits-for-a-dogecoin-diet/
 	
 	*parsley
 		name:Parsley
 		desc:A nice little supplement to your dogecoins' diet.<//><b>Effect:</b><.>+1 dogecoin/click
 		icon:icons[1,1]
 		cost:100 dogecoins
-		passive:increase dogecoin yield of bunnyButton by 1
+		passive:increase dogecoin yield of dogeButton by 1
 		req:10 dogecoins:earned
 		
 	*spinach
@@ -166,7 +166,7 @@ Upgrades
 		desc:Big tasty leaves, perfect for hungry dogecoins.<//><b>Effect:</b><.>+1 dogecoin/click
 		icon:icons[1,2]
 		cost:200 dogecoins
-		passive:increase dogecoin yield of bunnyButton by 1
+		passive:increase dogecoin yield of dogeButton by 1
 		req:50 dogecoins:earned
 		
 	*lettuce
@@ -174,7 +174,7 @@ Upgrades
 		desc:Frilly greens loved by all dogecoins.<//><b>Effect:</b><.>+1 dogecoin/click
 		icon:icons[1,3]
 		cost:400 dogecoins
-		passive:increase dogecoin yield of bunnyButton by 1
+		passive:increase dogecoin yield of dogeButton by 1
 		req:200 dogecoins:earned
 		
 	*broccoli
@@ -182,7 +182,7 @@ Upgrades
 		desc:Crunchy greens that look like little trees.<//><b>Effect:</b><.>dogecoins/click x2<.>dogecoin production +5%
 		icon:icons[1,4]
 		cost:3000 dogecoins
-		passive:multiply dogecoin yield of bunnyButton by 2
+		passive:multiply dogecoin yield of dogeButton by 2
 		passive:multiply yield of dogecoins by 1.05
 		req:1000 dogecoins:earned
 		
@@ -191,7 +191,7 @@ Upgrades
 		desc:Nice pieces of juicy red apples.<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,5]
 		cost:10000 dogecoins
-		passive:multiply dogecoin yield of bunnyButton by 1.5
+		passive:multiply dogecoin yield of dogeButton by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:1000 dogecoins:earned
 		
@@ -200,7 +200,7 @@ Upgrades
 		desc:Purple, crunchy, and strangely spicy.<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,6]
 		cost:50000 dogecoins
-		passive:multiply dogecoin yield of bunnyButton by 1.5
+		passive:multiply dogecoin yield of dogeButton by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:10000 dogecoins:earned
 		
@@ -209,7 +209,7 @@ Upgrades
 		desc:Tasty, and gives your dogecoins a lovely breath.<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,7]
 		cost:100000 dogecoins
-		passive:multiply dogecoin yield of bunnyButton by 1.5
+		passive:multiply dogecoin yield of dogeButton by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:50000 dogecoins:earned
 		
@@ -218,7 +218,7 @@ Upgrades
 		desc:Broad leaves that make for a tasty salad.<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,8]
 		cost:500000 dogecoins
-		passive:multiply dogecoin yield of bunnyButton by 1.5
+		passive:multiply dogecoin yield of dogeButton by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:100000 dogecoins:earned
 		
@@ -227,16 +227,16 @@ Upgrades
 		desc:Your dogecoins look like little vampires when they start munching on these!<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,9]
 		cost:1000000 dogecoins
-		passive:multiply dogecoin yield of bunnyButton by 1.5
+		passive:multiply dogecoin yield of dogeButton by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:500000 dogecoins:earned
 		
 	*carrot
 		name:Carrot
-		desc:The quintessential rabbit food! Crunchy, orange, and perfect.<//><b>Effect:</b><.>dogecoins/click x2<.>dogecoin production +10%
+		desc:The quintessential dogecoin food! Crunchy, orange, and perfect.<//><b>Effect:</b><.>dogecoins/click x2<.>dogecoin production +10%
 		icon:icons[1,0]
 		cost:100000000 dogecoins
-		passive:multiply dogecoin yield of bunnyButton by 2
+		passive:multiply dogecoin yield of dogeButton by 2
 		passive:multiply yield of dogecoins by 1.1
 		req:1000000 dogecoins:earned
 	
@@ -244,37 +244,37 @@ Upgrades
 	
 	*buildingUpgrade1
 		name:Sippy bottles
-		desc:Your dogecoins can drink their fill!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		desc:Your dogecoins can drink their fill!<//><b>Effect:</b><.>dogecoin lemonStand production x2<.>dogecoin dogehouse production x2<.>dogecoin coop production x2
 		icon:icons[2,0] icons[3,0]
 		cost:1000 dogecoins
-		passive:multiply yield of cage by 2
-		passive:multiply yield of hutch by 2
+		passive:multiply yield of lemonStand by 2
+		passive:multiply yield of dogehouse by 2
 		passive:multiply yield of coop by 2
-		req:(cages>=10 or hutches>=10 or coops>=10)
+		req:(lemonStands>=10 or dogehousees>=10 or coops>=10)
 		
 	*buildingUpgrade2
 		name:Prime grade hay
-		desc:Not just for horses anymore!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		desc:Not just for horses anymore!<//><b>Effect:</b><.>dogecoin lemonStand production x2<.>dogecoin dogehouse production x2<.>dogecoin coop production x2
 		icon:icons[2,0] icons[3,1]
 		cost:100000 dogecoins
-		passive:multiply yield of cage by 2
-		passive:multiply yield of hutch by 2
+		passive:multiply yield of lemonStand by 2
+		passive:multiply yield of dogehouse by 2
 		passive:multiply yield of coop by 2
-		req:(cages>=50 or hutches>=50 or coops>=50)
+		req:(lemonStands>=50 or dogehousees>=50 or coops>=50)
 		
 	*buildingUpgrade3
 		name:Shredded newspapers
-		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>dogecoin lemonStand production x2<.>dogecoin dogehouse production x2<.>dogecoin coop production x2
 		icon:icons[2,0] icons[3,2]
 		cost:5000000 dogecoins
-		passive:multiply yield of cage by 2
-		passive:multiply yield of hutch by 2
+		passive:multiply yield of lemonStand by 2
+		passive:multiply yield of dogehouse by 2
 		passive:multiply yield of coop by 2
-		req:(cages>=100 or hutches>=100 or coops>=100)
+		req:(lemonStands>=100 or dogehousees>=100 or coops>=100)
 		
 	*buildingUpgrade4
 		name:Pretty fences
-		desc:Just the right size so your dogecoins can peek through but not hop over!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
+		desc:Just the right size so your dogecoins can peek through but not hop over!<//><b>Effect:</b><.>dogecoin pen production x2<.>dogecoin meadow production x2
 		icon:icons[2,0] icons[3,3]
 		cost:50000 dogecoins
 		passive:multiply yield of pen by 2
@@ -283,7 +283,7 @@ Upgrades
 		
 	*buildingUpgrade5
 		name:dogecoin playground
-		desc:If your dogecoins are outside, they might as well get some exercise!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
+		desc:If your dogecoins are outside, they might as well get some exercise!<//><b>Effect:</b><.>dogecoin pen production x2<.>dogecoin meadow production x2
 		icon:icons[2,0] icons[3,4]
 		cost:5000000 dogecoins
 		passive:multiply yield of pen by 2
@@ -292,7 +292,7 @@ Upgrades
 		
 	*buildingUpgrade6
 		name:dogecoin TVs
-		desc:Televisions that broadcast dogecoin cartoons, dogecoin sitcoms, and dogecoin news bulletins.<//><b>Effect:</b><.>rabbit village production x2<.>rabbit city production x2
+		desc:Televisions that broadcast dogecoin cartoons, dogecoin sitcoms, and dogecoin news bulletins.<//><b>Effect:</b><.>dogecoin village production x2<.>dogecoin city production x2
 		icon:icons[2,0] icons[3,5]
 		cost:1000000 dogecoins
 		passive:multiply yield of village by 2
@@ -301,7 +301,7 @@ Upgrades
 		
 	*buildingUpgrade7
 		name:Wee little dogecoin cars
-		desc:Your dogecoins drive around in these. How nice!<//><b>Effect:</b><.>rabbit village production x2<.>rabbit city production x2
+		desc:Your dogecoins drive around in these. How nice!<//><b>Effect:</b><.>dogecoin village production x2<.>dogecoin city production x2
 		icon:icons[2,0] icons[3,6]
 		cost:500000000 dogecoins
 		passive:multiply yield of village by 2
@@ -325,8 +325,8 @@ Upgrades
 		cost:1 goldenCarrot
 		req:1 goldenCarrot:earned
 		
-	*rabbitHaste
-		name:Rabbit's haste
+	*dogecoinHaste
+		name:dogecoin's haste
 		desc:I'm late! I'm late! For a very important date!<//><b>Effect:</b><.>lucky dogecoins appear 30% more often
 		icon:icons[2,6]
 		passive:multiply frequency of luckyBunny by 0.7
@@ -335,7 +335,7 @@ Upgrades
 	
 	*independenceDay
 		name:Independence day
-		desc:Your dogecoins are making their first step towards declaring their independence from the oppressive shackles of pens and cages.<//><b>Effect:</b><.>unlocks new buildings
+		desc:Your dogecoins are making their first step towards declaring their independence from the oppressive shackles of pens and lemonStands.<//><b>Effect:</b><.>unlocks new buildings
 		icon:icons[2,7]
 		cost:10 goldenCarrots
 		req:5 goldenCarrots:earned
@@ -359,7 +359,7 @@ Achievements
 		on click:anim glow
 		
 	*bunnyAchiev1
-		name:Run rabbit run
+		name:Run dogecoin run
 		desc:Have <b>1</b> dogecoin.
 		req:1 dogecoin
 		icon:icons[2,4] icons[0,2] icons[0,6]
@@ -377,17 +377,17 @@ Achievements
 	*clickAchiev1
 		name:That tickles
 		desc:Click the dogecoin <b>10</b> times.
-		req:10 bunnyButton clicks
+		req:10 dogeButton clicks
 		icon:icons[2,2] icons[0,2] icons[0,6]
 	*clickAchiev2
 		name:Don't squeeze me I'll fart
 		desc:Click the dogecoin <b>100</b> times.
-		req:100 bunnyButton clicks
+		req:100 dogeButton clicks
 		icon:icons[2,2] icons[0,3] icons[0,6]
 	*clickAchiev3
 		name:You're cruising for a bruising, dude
 		desc:Click the dogecoin <b>2000</b> times.
-		req:2000 bunnyButton clicks
+		req:2000 dogeButton clicks
 		icon:icons[2,2] icons[0,4] icons[0,6]
 		
 	*bunnyPsAchiev1
