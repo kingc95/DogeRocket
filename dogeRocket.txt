@@ -33,7 +33,7 @@ Resources
 	*dogecoin|dogecoins
 		name:Dogecoin|Dogecoins
 		desc:These are your dogecoins. You can use them to purchase things. Your goal is to have as many dogecoins as possible!
-		icon:icons[0,0]
+		icon:https://i.pinimg.com/originals/3d/c0/e0/3dc0e094e7e634f271582f3254f8dea8.gif
 		class:noBackground
 		show earned
 		
