@@ -24,7 +24,7 @@ Layout
   		contains:buildings, upgrades
   	*buildings
     	contains:BulkDisplay, Buildings
-    	header:Buildings
+    	header:Generators
     	tooltip origin:left
   	*upgrades
     	contains:Upgrades
