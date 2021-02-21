@@ -113,35 +113,35 @@ Buildings
 		on tick:yield 90 dogecoins
 		req:20000 dogecoins:earned
 	
-	*village|villages
-		name:dogecoin village|dogecoin villages
-		desc:Your dogecoins are building their own villages now!<//><b>Effect:</b><.>Produces 300 dogecoins per second.
+	*minecraftServer|minecraftServers
+		name:Minecraft Server|Minecraft Servers
+		desc:Your friend hosts a minecraft server! While you slept over last weekend you turned it into a miner. He said you owe him 42% of the profits. That's life sometimes...<//><b>Effect:</b><.>Produces 300 dogecoins per second.
 		icon:icons[3,5]
 		cost:200000 dogecoins, 1 goldenCarrot
 		on tick:yield 300 dogecoins
 		req:200000 dogecoins:earned and independenceDay
 		
-	*city|cities
-		name:dogecoin city|dogecoin cities
-		desc:A bustling little city, populated with busy dogecoins.<//><b>Effect:</b><.>Produces 1000 dogecoins per second.
+	*rentAMiner|rentAMiners
+		name:Rent-A-Miner|Rent-A-Miners
+		desc:You find a mining rig you can rent on eBay. They charge a steep price upfront and you really don't feel like reading the fine print. Just show me the money.<//><b>Effect:</b><.>Produces 1000 dogecoins per second.
 		icon:icons[3,6]
 		cost:3000000 dogecoins, 4 goldenCarrots
 		on tick:yield 1000 dogecoins
 		req:3000000 dogecoins:earned and independenceDay
 		
-	*citadel|citadels
-		name:Moon citadel|Moon citadels
-		desc:An ornate palace standing on the moon, ruled by dogecoin kings and queens and staffed with royal dogecoin guards.<//><b>Effect:</b><.>Produces 4000 dogecoins per second.
+	*nsaSuperPC|nsaSuperPCs
+		name:NSA Super PC|NSASuper PCs
+		desc:You discover a security flaw on the whitehouse.gov webpage. You have gained access to the NSA super computers. They all seem focused on r/wallstreetbets and are studying lingo on msnbc. Something about HODL?<//><b>Effect:</b><.>Produces 4000 dogecoins per second.
 		icon:icons[3,7]
 		cost:70000000 dogecoins, 16 goldenCarrots
 		on tick:yield 4000 dogecoins
 		on tick:if (have moonGardens) yield 0.01 goldenCarrot
 		req:70000000 dogecoins:earned and independenceDay
 		
-	*fortress
-		name:Freedom fortress
-		text:Freedom fortress ([this]%)
-		desc:A huge dogecoin castle. A monument to the adventurous spirit of dogecoin kind, which will take time and effort to complete.<//><b>The fortress is [this]% complete.</b>
+	*moonBase
+		name:Moon Base
+		text:Moon Base ([this]%)
+		desc:You made it to the moon! You discover 3 crashed Tesla's and Elon musk waiting for you.<//><b>The new Moon Base is [this]% complete. He says. You better get to work so everyone else can join you!</b>
 		icon:icons[3,8]
 		cost:300000000 dogecoins, 100 goldenCarrots
 		req:70000000 dogecoins:earned and independenceDay
@@ -294,29 +294,29 @@ Upgrades
 		
 	*buildingUpgrade6
 		name:dogecoin TVs
-		desc:Televisions that broadcast dogecoin cartoons, dogecoin sitcoms, and dogecoin news bulletins.<//><b>Effect:</b><.>dogecoin village production x2<.>dogecoin city production x2
+		desc:Televisions that broadcast dogecoin cartoons, dogecoin sitcoms, and dogecoin news bulletins.<//><b>Effect:</b><.>dogecoin minecraftServer production x2<.>dogecoin rentAMiner production x2
 		icon:icons[2,0] icons[3,5]
 		cost:1000000 dogecoins
-		passive:multiply yield of village by 2
-		passive:multiply yield of city by 2
-		req:(villages>=10 or cities>=10)
+		passive:multiply yield of minecraftServer by 2
+		passive:multiply yield of rentAMiner by 2
+		req:(minecraftServers>=10 or rentAMiners>=10)
 		
 	*buildingUpgrade7
 		name:Wee little dogecoin cars
-		desc:Your dogecoins drive around in these. How nice!<//><b>Effect:</b><.>dogecoin village production x2<.>dogecoin city production x2
+		desc:Your dogecoins drive around in these. How nice!<//><b>Effect:</b><.>dogecoin minecraftServer production x2<.>dogecoin rentAMiner production x2
 		icon:icons[2,0] icons[3,6]
 		cost:500000000 dogecoins
-		passive:multiply yield of village by 2
-		passive:multiply yield of city by 2
-		req:(villages>=50 or cities>=50)
+		passive:multiply yield of minecraftServer by 2
+		passive:multiply yield of rentAMiner by 2
+		req:(minecraftServers>=50 or rentAMiners>=50)
 		
 	*buildingUpgrade8
 		name:Soothing moon crystals
-		desc:Just really nice to be around.<//><b>Effect:</b><.>moon citadel production x2
+		desc:Just really nice to be around.<//><b>Effect:</b><.>moon nsaSuperPC production x2
 		icon:icons[2,0] icons[3,7]
 		cost:1000000000 dogecoins
-		passive:multiply yield of citadel by 2
-		req:10 citadels
+		passive:multiply yield of nsaSuperPC by 2
+		req:10 nsaSuperPCs
 		
 	//golden carrot upgrades
 	
@@ -351,7 +351,7 @@ Upgrades
 		
 	*moonGardens
 		name:Moon gardens
-		desc:The royal botanists in your moon citadels have found new ways of cultivating plants in reduced gravity!<//><b>Effect:</b><.>moon citadels now produce 1 golden carrot every 100 seconds
+		desc:The royal botanists in your moon nsaSuperPCs have found new ways of cultivating plants in reduced gravity!<//><b>Effect:</b><.>moon nsaSuperPCs now produce 1 golden carrot every 100 seconds
 		icon:icons[2,9]
 		cost:100 goldenCarrots
 		req:50 goldenCarrots:earned
