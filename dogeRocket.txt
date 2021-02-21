@@ -11,7 +11,7 @@ Settings
 	building cost increase:115%
 	building cost refund:50%
 	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
-	stylesheet:https://raw.githubusercontent.com/kingc95/DogeRocket/main/bigBlue.css
+	stylesheet:https://raw.githubusercontent.com/kingc95/DogeRocket/main/bigBlue.txt
 Layout
 	use default
 		
