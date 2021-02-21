@@ -67,7 +67,7 @@ Shinies
 			end
 		end
 
-Buildings
+Doge-Generators
 	*TEMPLATE
 		on click:anim glow
 		
