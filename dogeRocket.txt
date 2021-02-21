@@ -15,22 +15,22 @@ Settings
 Layout
 	*main
   		contains:res, buttons
-  	*res
-    	contains:Resources
-    	class:fullWidth
-  	*buttons
-    	contains:Buttons
+	  	*res
+	    	contains:Resources
+	    	class:fullWidth
+	  	*buttons
+	    	contains:Buttons
 	*store
   		contains:buildings, upgrades
-  	*buildings
-    	contains:BulkDisplay, Buildings
-    	header:Generators
-    	tooltip origin:left
-  	*upgrades
-    	contains:Upgrades
-    	header:Upgrades
-    	costs:hide
-    	names:hide
+	  	*buildings
+	    	contains:BulkDisplay, Buildings
+	    	header:Generators
+	    	tooltip origin:left
+	  	*upgrades
+	    	contains:Upgrades
+	    	header:Upgrades
+	    	costs:hide
+	    	names:hide
 
 		
 Buttons
