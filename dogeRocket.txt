@@ -13,7 +13,24 @@ Settings
 	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
 	stylesheet:https://raw.githubusercontent.com/kingc95/DogeRocket/main/bigBlue.txt
 Layout
-	use default
+	*main
+  contains:res, buttons
+  *res
+    contains:Resources
+    class:fullWidth
+  *buttons
+    contains:Buttons
+*store
+  contains:generators, upgrades
+  *generators
+    contains:BulkDisplay, Buildings
+    header:Generators
+    tooltip origin:left
+  *upgrades
+    contains:Upgrades
+    header:Upgrades
+    costs:hide
+    names:hide
 		
 Buttons
 	*button
@@ -148,7 +165,7 @@ Buildings
 		limit:100
 		cost increase:105%
 		
-		
+
 Upgrades
 	*TEMPLATE
 		on click:anim glow
