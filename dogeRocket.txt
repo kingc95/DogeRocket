@@ -73,7 +73,7 @@ Buildings
 		
 	*lemonStand|lemonStands
 		name:Doge-ade Stand|Doge-ade Stands
-		desc:A tiny little Doge-ade stand. You convert lemons into small amounts of money. You sschoolComputerd all the profits buying Dogecoin. Don't forget the ice!<//><b>Effect:</b><.>Produces 1 dogecoin every 10 seconds.
+		desc:A tiny little Doge-ade stand. You convert lemons into small amounts of money. You  all the profits buying Dogecoin. Don't forget the ice!<//><b>Effect:</b><.>Produces 1 dogecoin every 10 seconds.
 		icon:icons[3,0]
 		cost:15 dogecoins
 		on tick:yield 0.1 dogecoin
