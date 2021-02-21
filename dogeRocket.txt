@@ -148,6 +148,7 @@ Buildings
 		limit:100
 		cost increase:105%
 		
+		
 Upgrades
 	*TEMPLATE
 		on click:anim glow
