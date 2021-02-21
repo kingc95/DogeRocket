@@ -5,10 +5,6 @@
 	box-shadow:none;
 }
 
-#thing-icon-0{
-	background-size: contain;
-}
-
 .thing,.box-header,.box-footer,.box-bit
 {
 	background:#39f;
@@ -83,6 +79,10 @@
 #box-upgrades{background:rgba(0,0,0,0.3);}
 
 #bulkDisplay{margin:-11px 24px 4px 24px;}
+
+#thing-icon-0{
+	background-size: contain;
+}
 
 
 .thing
