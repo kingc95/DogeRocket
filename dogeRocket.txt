@@ -15,8 +15,8 @@ Settings
 Layout
 	use default
 		
-ButtonsdogeButton
-	*
+Buttons
+	*dogeButton
 		name:Mine Doge
 		desc:Click this coin to mine doge!
 		on click:anim icon wobble
