@@ -5,7 +5,7 @@
 	box-shadow:none;
 }
 
-#thing-0{
+#thing-icon-0.style{
 	background-size: contain;
 }
 
