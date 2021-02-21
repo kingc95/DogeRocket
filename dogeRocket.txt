@@ -16,7 +16,7 @@ Layout
 	use default
 		
 Buttons
-	*dogeButton
+	*button
 		name:Mine Doge
 		desc:Click this coin to mine doge!
 		on click:anim icon wobble
@@ -159,7 +159,7 @@ Upgrades
 		desc:A nice little supplement to your dogecoins' diet.<//><b>Effect:</b><.>+1 dogecoin/click
 		icon:icons[1,1]
 		cost:100 dogecoins
-		passive:increase dogecoin yield of dogeButton by 1
+		passive:increase dogecoin yield of button by 1
 		req:10 dogecoins:earned
 		
 	*spinach
@@ -167,7 +167,7 @@ Upgrades
 		desc:Big tasty leaves, perfect for hungry dogecoins.<//><b>Effect:</b><.>+1 dogecoin/click
 		icon:icons[1,2]
 		cost:200 dogecoins
-		passive:increase dogecoin yield of dogeButton by 1
+		passive:increase dogecoin yield of button by 1
 		req:50 dogecoins:earned
 		
 	*lettuce
@@ -175,7 +175,7 @@ Upgrades
 		desc:Frilly greens loved by all dogecoins.<//><b>Effect:</b><.>+1 dogecoin/click
 		icon:icons[1,3]
 		cost:400 dogecoins
-		passive:increase dogecoin yield of dogeButton by 1
+		passive:increase dogecoin yield of button by 1
 		req:200 dogecoins:earned
 		
 	*broccoli
@@ -183,7 +183,7 @@ Upgrades
 		desc:Crunchy greens that look like little trees.<//><b>Effect:</b><.>dogecoins/click x2<.>dogecoin production +5%
 		icon:icons[1,4]
 		cost:3000 dogecoins
-		passive:multiply dogecoin yield of dogeButton by 2
+		passive:multiply dogecoin yield of button by 2
 		passive:multiply yield of dogecoins by 1.05
 		req:1000 dogecoins:earned
 		
@@ -192,7 +192,7 @@ Upgrades
 		desc:Nice pieces of juicy red apples.<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,5]
 		cost:10000 dogecoins
-		passive:multiply dogecoin yield of dogeButton by 1.5
+		passive:multiply dogecoin yield of button by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:1000 dogecoins:earned
 		
@@ -201,7 +201,7 @@ Upgrades
 		desc:Purple, crunchy, and strangely spicy.<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,6]
 		cost:50000 dogecoins
-		passive:multiply dogecoin yield of dogeButton by 1.5
+		passive:multiply dogecoin yield of button by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:10000 dogecoins:earned
 		
@@ -210,7 +210,7 @@ Upgrades
 		desc:Tasty, and gives your dogecoins a lovely breath.<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,7]
 		cost:100000 dogecoins
-		passive:multiply dogecoin yield of dogeButton by 1.5
+		passive:multiply dogecoin yield of button by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:50000 dogecoins:earned
 		
@@ -219,7 +219,7 @@ Upgrades
 		desc:Broad leaves that make for a tasty salad.<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,8]
 		cost:500000 dogecoins
-		passive:multiply dogecoin yield of dogeButton by 1.5
+		passive:multiply dogecoin yield of button by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:100000 dogecoins:earned
 		
@@ -228,7 +228,7 @@ Upgrades
 		desc:Your dogecoins look like little vampires when they start munching on these!<//><b>Effect:</b><.>dogecoins/click x1.5<.>dogecoin production +5%
 		icon:icons[1,9]
 		cost:1000000 dogecoins
-		passive:multiply dogecoin yield of dogeButton by 1.5
+		passive:multiply dogecoin yield of button by 1.5
 		passive:multiply yield of dogecoins by 1.05
 		req:500000 dogecoins:earned
 		
@@ -237,7 +237,7 @@ Upgrades
 		desc:The quintessential dogecoin food! Crunchy, orange, and perfect.<//><b>Effect:</b><.>dogecoins/click x2<.>dogecoin production +10%
 		icon:icons[1,0]
 		cost:100000000 dogecoins
-		passive:multiply dogecoin yield of dogeButton by 2
+		passive:multiply dogecoin yield of button by 2
 		passive:multiply yield of dogecoins by 1.1
 		req:1000000 dogecoins:earned
 	
@@ -378,17 +378,17 @@ Achievements
 	*clickAchiev1
 		name:That tickles
 		desc:Click the dogecoin <b>10</b> times.
-		req:10 dogeButton clicks
+		req:10 button clicks
 		icon:icons[2,2] icons[0,2] icons[0,6]
 	*clickAchiev2
 		name:Don't squeeze me I'll fart
 		desc:Click the dogecoin <b>100</b> times.
-		req:100 dogeButton clicks
+		req:100 button clicks
 		icon:icons[2,2] icons[0,3] icons[0,6]
 	*clickAchiev3
 		name:You're cruising for a bruising, dude
 		desc:Click the dogecoin <b>2000</b> times.
-		req:2000 dogeButton clicks
+		req:2000 button clicks
 		icon:icons[2,2] icons[0,4] icons[0,6]
 		
 	*bunnyPsAchiev1
