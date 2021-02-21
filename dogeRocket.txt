@@ -426,7 +426,7 @@ Achievements
 	
 	*fortressAchiev
 		name:Freedom!
-		desc:Complete building the <b>freedom fortress</b>.<//>This is it. You beat the game!
-		req:100 fortress
+		desc:Complete building the <b>Moon Base</b>.<//>This is it. You beat the game!
+		req:100 moonBase
 		icon:icons[3,8] icons[0,4]
 		
